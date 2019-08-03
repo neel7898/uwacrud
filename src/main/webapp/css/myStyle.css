@@ -1,0 +1,27 @@
+.moduleHeader {
+	display: none;
+}
+
+.moduleFooter {
+	display: none;
+}
+
+.uk-button-success  {
+	background:  #28a745 !important;
+	color: white;
+	border : 1px solid transparent;
+}
+
+.module {
+	width: 70rem !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .module {
+	width: 100% !important;
+}
+}
+
+input.uk-form-width-small {
+	width: 100px !important;
+}
