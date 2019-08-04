@@ -1,7 +1,7 @@
 //This JS file defines our application.
 //Here, we have created required collection and render it and set it to widget body
 //here we have injected required dependency in array
-define('MyApp',['MyApp/Collections','MyApp/Views'],function(MyCollections,MyViews){	
+define('MyApp',['MyApp/Collections','MyApp/Views','UWA/Widget'],function(MyCollections,MyViews,widget){	
 
 	var Books = MyCollections.Books;		//defining our collection
 	var BookRowView = MyViews.BookRowView;	//defining our views
