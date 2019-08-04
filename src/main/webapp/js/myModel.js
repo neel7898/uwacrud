@@ -9,7 +9,7 @@ define('MyApp/Models',['UWA/Class/Model', 'UWA/Class/Debug'],function(Model,Debu
 	
 	//Creating Book Model
 	MyModels.Book = Model.extend(Debug,{
-		urlRoot : 'rest/books/book', //Root URL for communication with backend
+		urlRoot : 'https://safe-sea-17796.herokuapp.com/rest/books/book', //Root URL for communication with backend
 		
 		//Default values
 		defaults: {
