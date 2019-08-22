@@ -9,7 +9,7 @@ define('MyApp/Collections',['UWA/Class/Collection', 'MyApp/Models'],function(Col
 	
 	//Creating Books Collection
 	MyCollections.Books = Collection.extend({
-		url : 'https://safe-sea-17796.herokuapp.com/rest/books',  //Root URL for communication with backend
+		url : 'rest/books',  //Root URL for communication with backend
 		model : MyModels.Book, //Model Type for collection
 		
 		//Custom method to send post request to backend
